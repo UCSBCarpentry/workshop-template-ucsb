@@ -1,3 +1,26 @@
+# UCSB Customizations for Carpentries Workshop Template
+
+This fork of the Carpentries Workshop Template includes common modifications used in UCSB Carpentry workshops:
+
+- front matter in `index.md` is pre-set (`venue`, `address`, etc.)
+- separate page for setup instructions (`setup.md`)
+- auto-generated schedule using `_includes/syllabus.html`
+- modified `includes/navbar.html` to include setup and episodes menu
+
+To use this template, you should:
+
+- follow instructions in upstream README (below)
+- copy episodes from lesson repositories into the `_episodes` folder and
+  number them appropriately (`00-intro.md`, `01-lesson.md`, ...).
+- set `start_time` in `_config.yml` and check that all episodes include
+  `teaching` and `exercises` in the front matter---both are needed for the
+  auto-generated schedule. For multi-day workshops, include `start: true` in the
+  front matter for the first lesson on each day.
+- update setup instructions in `setup.md`
+
+*Upstream README.md continues below*
+<hr/>
+
 [![Website](https://github.com/carpentries/workshop-template/actions/workflows/website.yml/badge.svg)](https://github.com/carpentries/workshop-template/actions/workflows/website.yml)
 
 # The Carpentries Workshop Template
