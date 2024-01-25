@@ -68,6 +68,7 @@ create a workshop website.
     click on the green "Use this template" button (top right)
 
     ![screenshot of this repository's GitHub page with an arrow pointing to the the 'use this template' button on the top left](fig/select-github-use-template.png?raw=true)
+    Alternatively, use this link: [Use this template](https://github.com/new?template_name=workshop-template&template_owner=carpentries).
 
 3.  Select the owner for your new repository.
     (This will probably be you, but may instead be an organization you belong to.)
@@ -121,7 +122,7 @@ There are two ways of customizing your website. You can either:
 
 4.  Remove the notice about using the workshop template in the `index.md` file. You can safely
     delete everything between the `{% comment %}` and `{% endcomment %}` (included) as indicated
-    below (about from line 35 to line 51):
+    below (from line 35 to line 58):
 
     ```jekyll
     {% comment %} <------------ remove from this line

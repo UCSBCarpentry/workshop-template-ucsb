@@ -84,6 +84,19 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
+
+<p>
+<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
+href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
+<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
+helpers, and supporters who share a mission to teach foundational computational and data science
+skills to researchers.
+<p align="center">
+  <em>
+  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
+Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+  </em>
+</p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -204,9 +217,13 @@ special instructions.
   attempt to provide them.
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+  We are dedicated to providing a positive and accessible learning environment for all. 
+  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
+  However, we do want to help create an inclusive, accessible experience for all participants. 
+  We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
+  To request an accommodation for this workshop, please fill out the 
+  <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
+  If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 {% endif %}
 
